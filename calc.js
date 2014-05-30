@@ -2,6 +2,7 @@ $(document).ready(function(){
 	temp = 0;
 	answer = 0;
 	operation = 0;
+
 	$('.digit').on("click",function(){
 		digiclick($(this).find('input').val());
 		
@@ -16,6 +17,11 @@ $(document).ready(function(){
 		operclick($(this).find('input').val());
 		
 	});
+
+$('.allclear').on("click", function(){
+		reset();
+		});
+
 $(document).keypress(function(e){
 	console.log(e.which);
 		switch (e.which){

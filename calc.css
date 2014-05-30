@@ -1,8 +1,11 @@
 div#master{float:left;text-align:center; }/*height:100%;width:100%;}*/
 input#display {width:95%; margin:2px; background-color:#3b5998; color:yellow; text-align: right; height:100%;}
 div#master #num_oper div {float:left; margin:2px; width:30%; background-color:green;color:blue; height:100%;vertical-align:middle;}
-div#master #num_oper div:active input{background-color:red;color:white;}
+div#master #num_oper div:active input{background-color:blue;color:white;}
 div#master #num_oper div#right{clear:both;}
 div#master #num_oper .digit input{color:black;background-color:#cec5fa; }
 div#master #num_oper input {width:100%; height:100%;}
+div#master #num_oper div.tight {width:22%;}
+div#master #num_oper div#allclear {width:95%;}
+div#master #num_oper div#allclear .allclear{background-color: red;width:100%;}
 
