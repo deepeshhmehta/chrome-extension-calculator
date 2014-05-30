@@ -1,4 +1,4 @@
-div#master{text-align:center; height:100%;width:100%;}
+div#master{float:left;text-align:center; }/*height:100%;width:100%;}*/
 input#display {width:95%; margin:2px; background-color:#3b5998; color:yellow; text-align: right; height:100%;}
 div#master #num_oper div {float:left; margin:2px; width:30%; background-color:green;color:blue; height:100%;vertical-align:middle;}
 div#master #num_oper div:active input{background-color:red;color:white;}
